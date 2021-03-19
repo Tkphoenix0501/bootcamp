@@ -1,0 +1,91 @@
+body{
+    /* background-image: url(../images/3.jpg); */
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    height: 1200px;
+    background-attachment: scroll;
+}
+table{
+    empty-cells: hide;
+    border-collapse:collapse;
+}
+img{
+    float: left;
+
+}
+p{
+    /* margin: 50px 30px 80px 10px;
+    border: black 10px dotted;
+    padding: 20px 50px 30px 80px;
+    width: 100px;
+    height: 200px; */
+    clear: right;
+    box-sizing: border-box;
+    overflow: scroll;
+    
+}
+
+h1{
+    color: cornflowerblue;
+}
+h1.title{
+    color: deeppink;
+}
+h1{
+    background-color: darkgreen;
+    color: darkorchid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: gold 5px line-through;
+    text-align: center;
+    text-shadow: indianred 5px 10px 4px;
+    text-indent: 20px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+ul li{
+    color: lightcoral;
+    list-style: square outside ;
+    list-style-type: square;
+    list-style-position: inside;
+    border: black 2px solid;
+}
+ol li{
+    list-style-type: decimal-leading-zero;
+}
+
+p{
+    line-height: 100%;
+}
+
+/* .brands li{
+    font-size: 50px;
+} */
+/* .title{
+    color: crimson;
+}
+#title3{
+    color: darkgoldenrod;
+} */
+div{
+    font-size: 50px;
+}
+.parent{
+    height: 1200px;
+}
+.div1{
+    background-color: darkorange;
+    position:fixed;
+    top: 60px;
+    left: 30px;
+}
+.div2{
+    background-color: deeppink;
+}
+.div3{
+    background-color: forestgreen;
+}
